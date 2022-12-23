@@ -43,7 +43,6 @@ function showRepositories(repositories) {
 	let selectList = `<li class="container__list" data-owner="${user}" data-stars="${stars}">${name}</li>`;
 	container.innerHTML += selectList;
     }
-    
 
 }
 

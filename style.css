@@ -32,10 +32,8 @@ body {
 
 	
 .container__list {
-	width: 100%;
 	cursor: pointer;
 	font-size: 30px;
-	line-height: 35px;
 	border: 2px solid #000;
 	box-sizing: border-box;
 	background-color: #E3E3E3;
@@ -59,21 +57,19 @@ body {
 	display: flex;
 	font-size: 24px;
 	padding: 8px 16px;
-	line-height: 28px;
 	border: 1px solid #000;
 	background-color: #E27BEB;
-	overflow: hidden;
 }
 	
 .btn-close {
 	margin: auto;
 	margin-right: 0;
-	background-repeat: no-repeat;
-	background-image: url("img/Vector\ 3.png"), url("img/Vector\ 8.png");
-	background-color: transparent;
-	background-size: contain;
 	border: none;
 	cursor: pointer;
+	background-image: url("img/Vector\ 3.png"), url("img/Vector\ 8.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: contain;
 	width: 45px;
 	height: 45px;
 }
