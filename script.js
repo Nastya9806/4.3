@@ -39,7 +39,7 @@ function showRepositories(repositories) {
 	let name = repo.name;
 	let user = repo.owner.login;
 	let stars = repo.stargazers_count;
-
+    
 	let selectList = `<li class="container__list" data-owner="${user}" data-stars="${stars}">${name}</li>`;
 	container.innerHTML += selectList;
     }
